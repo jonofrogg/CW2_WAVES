@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1852.0, 921.0 ],
+		"rect" : [ 34.0, 77.0, 1457.0, 921.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -60,7 +60,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 2070.666728377342224, 1792.000053405761719, 100.0, 50.0 ],
-					"pic" : "C:/Users/jonat/Downloads/cartoon-robot-free.png",
+					"pic" : "C:/Users/jonat/Documents/Max 8/cw2/CW2_WAVES/cartoon-robot-free.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 1944.000056505203247, 254.666665077209473, 108.000003218650818, 106.666669845581055 ]
 				}
@@ -76,8 +76,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 2499.750060439109802, 2005.333393096923828, 100.0, 50.0 ],
-					"pic" : "C:/Users/jonat/Downloads/metal-texture-pictures-1906-x-1191-sp10w1ho1qopfg0n.jpg",
+					"patching_rect" : [ 2504.000074625015259, 1999.00005841255188, 100.0, 50.0 ],
+					"pic" : "C:/Users/jonat/Documents/Max 8/cw2/CW2_WAVES/metal-texture-pictures-1906-x-1191-sp10w1ho1qopfg0n.jpg",
 					"presentation" : 1,
 					"presentation_rect" : [ 118.583336412906647, 85.260419070720673, 1996.000059485435486, 987.062529325485229 ]
 				}
@@ -8575,8 +8575,7 @@
 			}
 , 			{
 				"box" : 				{
-					"attack_time" : 500.0,
-					"decay_time" : 500.0,
+					"decay_time" : 1.5,
 					"id" : "obj-292",
 					"maxclass" : "live.adsrui",
 					"numinlets" : 10,
@@ -8586,7 +8585,8 @@
 					"peak" : 0.828571428571428,
 					"presentation" : 1,
 					"presentation_rect" : [ 540.000016093254089, 417.333345770835876, 420.0, 140.0 ],
-					"release_time" : 250.0
+					"release_time" : 1.5,
+					"sustain" : 0.0
 				}
 
 			}
@@ -21290,8 +21290,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "cartoon-robot-free.png",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../Downloads",
+				"bootpath" : "~/Documents/Max 8/cw2/CW2_WAVES",
+				"patcherrelativepath" : ".",
 				"type" : "PNG",
 				"implicit" : 1
 			}
@@ -21303,8 +21303,8 @@
 			}
 , 			{
 				"name" : "metal-texture-pictures-1906-x-1191-sp10w1ho1qopfg0n.jpg",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../Downloads",
+				"bootpath" : "~/Documents/Max 8/cw2/CW2_WAVES",
+				"patcherrelativepath" : ".",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
